@@ -1,0 +1,167 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-card{
+    background-color: #fff;
+    width: 750px;
+    padding: 1.5rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+
+    & .product-name{
+        color: black;
+        font-size: 27px;
+        font-weight: 600;
+        text-align: center;
+        
+       }
+
+    & .productImg{
+        display: flex;
+    }
+
+    & .productImg img{
+        height: 600px;
+        object-fit: cover;
+        box-shadow: 0 0px 5px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    & .product-inf{
+        background-color: #fff;
+        margin: 0 2rem;
+
+       & .author,
+       & .publisher,
+       & .category{
+        font-size: 20px;
+        margin: 0.5rem 0;
+        font-weight: normal;
+       }
+
+       & .category{
+        box-shadow: 0 0.8px 0px rgba(0, 0, 0, 0.1);
+       }
+
+       & .series{
+        color: #6c757d;
+        font-size: 13px;
+        box-shadow: 0 0.8px 0px rgba(0, 0, 0, 0.1);
+        margin: 0.5rem 0;
+       }
+
+       & .author-name,
+       & .publisher-name,
+       & .category-name{
+        color: #00bf6c;
+       }
+
+       & p{
+        font-size: 20px;
+       }
+
+       & ul{
+        list-style: none;
+        display: flex;
+        padding: 0.5rem 0;
+        box-shadow: 0 0.8px 0px rgba(0, 0, 0, 0.1);
+
+        & li{
+            margin-right: 0.5rem;
+        }
+
+        & .book-one{
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 40px;
+            background-color: #ced4da;
+            border-radius: 5px;
+        }
+
+        & .book-two{
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 40px;
+            background-color: #ced4da;
+            border-radius: 5px;
+        }
+
+        & .book-three{
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 40px;
+            background-color: #ced4da;
+            border-radius: 5px;
+        }
+
+        & .book-four{
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 40px;
+            background-color: #ced4da;
+            border-radius: 5px;
+        }
+
+        & .book-five{
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 40px;
+            background-color: #ced4da;
+            border-radius: 5px;
+        }
+
+        & .book-one:hover,
+        & .book-two:hover,
+        & .book-three:hover,
+        & .book-four:hover, 
+        & .book-five:hover{
+            background-color: #00bf6c;
+            color: #fff;
+        }
+
+        & .product-price{
+            font-size: 20px;
+            margin-right: auto;
+        }
+
+       }
+
+       & .pant,
+       & .nt{
+        color: #6c757d;
+        font-size: 13px;
+        margin: 0.2.5rem 0;
+      }
+    }
+}
